@@ -154,3 +154,43 @@ a{
     border-radius: 31px;
     display: cover;
 }
+
+.welcome__block-service{
+    height: 93px;
+    background-color: var(--color-accent);
+    margin-top: 28px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.welcome__service-left{
+    display: flex;
+    gap: 12px;
+    margin-left: 32px;
+    align-items: center;
+}
+
+.welcome__service-span{
+    font-size: 16px;
+}
+
+.welcome__service-buttons{
+    margin-right: 32px;
+    gap: 12px;
+    display: flex;
+}
+
+.welcome__service-button{
+    border-radius: 28px;
+    background-color: #E2EDBE;
+    border: 1px solid #D1DBAF;
+    padding: 12px 32px;
+
+}
+
+.welcome__service-link{
+    color: #575757;
+    font-size: 14px;
+
+}
