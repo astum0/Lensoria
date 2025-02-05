@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lensoria</title>
     <link rel="stylesheet" href="/innards/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide/dist/css/splide.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide/dist/js/splide.min.js"></script>
+    <script src="/innards/js/application.js" ></script>
+
 </head>
 <body class="envelope">
     <header class="header">
@@ -46,7 +50,38 @@
         <section class="section__welcome welcome">
             <div class="container welcome__container">
                 <div class="welcome__inner">
-                    
+                    <div class="welcome__block-left">
+                        <div class="welcome__block-text">
+                            <h1 class="welcome__text">
+                                Capturing Life’s Moments,<br> Turning Memories into<br> Timeless Visual Masterpieces
+                            </h1>
+                            <span class="welcome__subtext">
+                                We specialize in preserving your cherished moments through<br> stunning photography
+                            </span>
+                        </div>
+                        <div class="welcome__buttons">
+                            <button class="button welcome__button">
+                                <a href="#!" class="welcome__link">Book A Call</a>
+                            </button>
+                            <button class="button welcome__button-secondary">
+                                <a href="#!" class="welcome__link">
+                                    <img src="innards/img/svg/Arrow2.svg" loading="lazy" alt="Стрелка">
+                                </a>
+                            </button>
+                        </div>
+                        <div id="image-slider" class="splide">
+                            <div class="splide__track">
+                                <div class="splide__list">
+                                    <img src="innards/img/image1.png" loading="lazy" alt="Фотография" class="splide__slide">
+                                    <img src="innards/img/image2.png" loading="lazy" alt="Фотография" class="splide__slide">
+                                    <img src="innards/img/image3.jpg" loading="lazy" alt="Фотография" class="splide__slide">
+                                </div> 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="welcome__block-image">
+                        <img src="/innards/img/image.jpg" loading="lazy" alt="Фотография" class="welcome__main-image">
+                    </div>
                 </div>
             </div>
         </section>

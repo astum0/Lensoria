@@ -26,6 +26,15 @@ a{
     text-decoration: none;
 
 }
+.button{
+    border-radius: 28px;
+    background-color: var(--color-black);
+    color: var(--color-accent);
+    border: none;
+    padding: 12px 32px;
+}
+
+
 
 .header{
     margin-top:54px;
@@ -77,8 +86,71 @@ a{
     padding: 14px 16px;
 }
 
-.button{
-    border-radius: 28px;
-    background-color: var(--color-black);
+.welcome__inner{
+    display: flex;
+}
+
+.welcome__block-left{
+    margin-top: 148px;
+}
+
+.welcome__block-text{
+    gap: 12px;
+    display: flex;
+    flex-direction: column;
+}
+
+.welcome__text{
+    font-size: 64px;
+}
+
+.welcome__subtext{
+    font-size: 14px;
+}
+
+.welcome__link{
     color: var(--color-accent);
+    font-size: 14px;
+}
+
+.welcome__button-secondary{
+    padding: 12px 14px;
+}
+
+.welcome__buttons{
+    margin-top: 40px;
+}
+
+.welcome__block-image{
+
+}
+
+.welcome__main-image{
+    margin-top: 50px;
+    width: 524px;
+    height: 781px;
+    display: cover;
+    border-radius: 24px;
+}
+
+.splide{
+    height: 167px;
+    width: 860px;
+    margin-top: 127px;
+}
+
+.splide__track{
+    margin-right:81px;
+}
+
+.swiper__list{
+    display: flex;
+    gap: 25px;
+}
+
+.splide__slide{
+    width: 270px;
+    height: 176px;
+    border-radius: 31px;
+    display: cover;
 }
