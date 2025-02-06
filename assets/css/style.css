@@ -686,3 +686,92 @@ a{
     height: 434px;
     object-fit: cover;
 }
+
+.insight{
+    margin-bottom: 99px;
+}
+
+.insight__button-title{
+    border-radius: 28px;
+    background-color: var(--color-white);
+    border: 1px solid var(--color-black);
+    padding: 8px 12px;
+}
+
+.insight__buttons{
+    display: flex;
+}
+
+.insight__button-link{
+    color: var(--color-black);
+    text-decoration: none;
+}
+
+.insight__block-text{
+    margin: 12px 0px 40px 0px;
+    gap: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.insight__text{
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.insight__button{
+    display: flex;
+}
+
+.insight__button{
+    border-radius: 28px;
+    background-color: var(--color-black);
+    padding: 12px 32px;
+    border: none;
+}
+
+.insight__link{
+    color: var(--color-white);
+    font-size: 14px;
+}
+
+.insight__button-arrow{
+    padding: 12px 14px;
+    border: none;
+    border-radius: 48px;
+    background-color: var(--color-black);
+}
+
+.insight__cards{
+    display: flex;
+    gap: 24px;
+}
+
+.insight__item{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.insight__image{
+    width: 444px;
+    height: 316px;
+    object-fit: cover;
+    border-radius: 24px;
+}
+
+.insight__text{
+    display: flex;
+    gap: 12px;
+    flex-direction: column;
+}
+
+.insight__card-title{
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.insght__card-paragraph{
+    font-size: 14px;
+}
