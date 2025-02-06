@@ -715,11 +715,6 @@ a{
     align-items: end;
 }
 
-.insight__text{
-    font-size: 40px;
-    font-weight: 500;
-}
-
 .insight__button{
     display: flex;
 }
@@ -763,6 +758,8 @@ a{
 
 .insight__text{
     display: flex;
+    font-size: 40px;
+    font-weight: 500;
     gap: 12px;
     flex-direction: column;
 }
@@ -958,4 +955,59 @@ a{
 
 .price__description-accent{
     color: var(--color-white);
+}
+
+.faq{
+    margin: 140px 0px;
+}
+
+.faq__button-title{
+    border-radius: 28px;
+    background-color: var(--color-white);
+    border: 1px solid var(--color-black);
+    padding: 8px 12px;
+}
+
+.faq__button-link{
+    color: var(--color-black);
+    text-decoration: none;
+}
+
+.faq__block-text{
+    margin: 20px 0px 40px 0px;
+    gap: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.faq__text{
+    display: flex;
+    font-size: 48px;
+    font-weight: 500;
+    gap: 12px;
+    flex-direction: column;
+}
+
+.faq__buttons{
+
+}
+
+.faq__button{
+    border-radius: 28px;
+    background-color: var(--color-black);
+    padding: 12px 32px;
+    border: none;
+}
+
+.faq__link{
+    color: var(--color-white);
+    font-size: 14px;
+}
+
+.faq__button-arrow{
+    padding: 12px 14px;
+    border: none;
+    border-radius: 48px;
+    background-color: var(--color-black);
 }
