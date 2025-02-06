@@ -1,493 +1,810 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Lensoria</title>
-    <link rel="stylesheet" href="/assets/css/style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide/dist/css/splide.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>    
-    <script defer src="https://cdn.jsdelivr.net/npm/@splidejs/splide/dist/js/splide.min.js"></script>
-    <script defer src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script defer src="/assets/js/application.js" ></script>
-</head>
-<body class="envelope">
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@splidejs/splide/dist/css/splide.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/@splidejs/splide/dist/js/splide.min.js"
+    ></script>
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"
+    ></script>
+    <script defer src="/assets/js/application.js"></script>
+  </head>
+  <body class="envelope">
     <header class="header">
-        <div class="container header__container">
-            <div class="header__inner">
-                <a href="#!" class="header__logo">
-                    LENSORIA
-                </a>
-               <nav class="header__nav nav">
-                    <menu class="nav__menu">
-                        <li class="nav__item"><a href="#!" class="nav__link">
-                            Home
-                        </a></li>
-                        <li class="nav__item"><a href="#!" class="nav__link">
-                            About Us
-                        </a></li>
-                        <li class="nav__item"><a href="#!" class="nav__link">
-                            Work
-                        </a></li>
-                        <li class="nav__item"><a href="#!" class="nav__link">
-                            Service
-                        </a></li>
-                    </menu>
-               </nav>
-               <div class="header__buttons">
-                    <button class="header__button">
-                        <a href="#!" class="header__button-link">Contact Us</a>
-                    </button>
-                    <button class="header__button-secondary">
-                        <a href="#!" class="header__button-link">
-                            <img src="/assets/img/svg/Arrow.svg" alt="Стрелка" loading="lazy" class="header__button-img">
-                        </a>
-                    </button>
-               </div>
-            </div>
+      <div class="container header__container">
+        <div class="header__inner">
+          <a href="#!" class="header__logo"> LENSORIA </a>
+          <nav class="header__nav nav">
+            <menu class="nav__menu">
+              <li class="nav__item">
+                <a href="#!" class="nav__link"> Home </a>
+              </li>
+              <li class="nav__item">
+                <a href="#!" class="nav__link"> About Us </a>
+              </li>
+              <li class="nav__item">
+                <a href="#!" class="nav__link"> Work </a>
+              </li>
+              <li class="nav__item">
+                <a href="#!" class="nav__link"> Service </a>
+              </li>
+            </menu>
+          </nav>
+          <div class="header__buttons">
+            <button class="header__button">
+              <a href="#!" class="header__button-link">Contact Us</a>
+            </button>
+            <button class="header__button-secondary">
+              <a href="#!" class="header__button-link">
+                <img
+                  src="/assets/img/svg/Arrow.svg"
+                  alt="Стрелка"
+                  loading="lazy"
+                  class="header__button-img"
+                />
+              </a>
+            </button>
+          </div>
         </div>
+      </div>
     </header>
     <main class="main">
-        <section class="section__welcome welcome">
-            <div class="container welcome__container">
-                <div class="welcome__inner">
-                    <div class="welcome__block-left">
-                        <div class="welcome__block-text">
-                            <h1 class="welcome__text">
-                                Capturing Life’s Moments,<br> Turning Memories into<br> Timeless Visual Masterpieces
-                            </h1>
-                            <span class="welcome__subtext">
-                                We specialize in preserving your cherished moments through<br> stunning photography
+      <section class="section__welcome welcome">
+        <div class="container welcome__container">
+          <div class="welcome__inner">
+            <div class="welcome__block-left">
+              <div class="welcome__block-text">
+                <h1 class="welcome__text">
+                  Capturing Life’s Moments,<br />
+                  Turning Memories into<br />
+                  Timeless Visual Masterpieces
+                </h1>
+                <span class="welcome__subtext">
+                  We specialize in preserving your cherished moments through<br />
+                  stunning photography
+                </span>
+              </div>
+              <div class="welcome__buttons">
+                <button class="button welcome__button">
+                  <a href="#!" class="welcome__link">Book A Call</a>
+                </button>
+                <button class="button welcome__button-secondary">
+                  <a href="#!" class="welcome__link">
+                    <img
+                      src="assets/img/svg/Arrow2.svg"
+                      loading="lazy"
+                      alt="Стрелка"
+                    />
+                  </a>
+                </button>
+              </div>
+              <div id="image-slider" class="splide">
+                <div class="splide__track">
+                  <div class="splide__list">
+                    <img
+                      src="assets/img/image1.png"
+                      loading="lazy"
+                      alt="Фотография"
+                      class="splide__slide"
+                    />
+                    <img
+                      src="assets/img/image2.png"
+                      loading="lazy"
+                      alt="Фотография"
+                      class="splide__slide"
+                    />
+                    <img
+                      src="assets/img/image3.jpg"
+                      loading="lazy"
+                      alt="Фотография"
+                      class="splide__slide"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="welcome__block-image">
+              <img
+                src="assets/img/image.jpg"
+                loading="lazy"
+                alt="Фотография"
+                class="welcome__main-image"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="welcome__block-service">
+          <div class="container welcome__block-container">
+            <div class="welcome__service-left">
+              <img src="assets/img/faces.png" loading="lazy" alt="Фотографии" />
+              <span class="welcome__service-span">
+                32k people happy with<br />
+                our service
+              </span>
+            </div>
+            <div class="welcome__service-buttons">
+              <button class="welcome__service-button">
+                <a href="#!" class="welcome__service-link"> Landscape </a>
+              </button>
+              <button class="welcome__service-button">
+                <a href="#!" class="welcome__service-link"> Portrait </a>
+              </button>
+              <button class="welcome__service-button">
+                <a href="#!" class="welcome__service-link"> Project </a>
+              </button>
+              <button class="welcome__service-button">
+                <a href="#!" class="welcome__service-link"> Event </a>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section__about about">
+        <div class="container about__container">
+          <div class="about__inner">
+            <div class="about__block-text">
+              <button class="about__button">
+                <a href="#!" class="about__link"> About Lensoria </a>
+              </button>
+              <h2 class="about__text">
+                From heartfelt celebrations to professional branding, we
+                blend<br />
+                creativity, precision, and artistry to deliver stunning
+                photographs<br />
+                that resonate deeply.
+              </h2>
+            </div>
+            <div class="about__block-img">
+              <div class="about__first-image">
+                <img
+                  src="/assets/img/image4.jpg"
+                  loading="lazy"
+                  alt="Фото"
+                  class="about__first-img"
+                />
+                <button class="about__image-button">
+                  <a href="#!" class="about__image-link"> About Lensoria </a>
+                </button>
+              </div>
+              <div class="about__block-span">
+                <span class="about__span">
+                  Guided by creativity, precision, and<br />
+                  passion, we strive to create art that<br />
+                  transcends time, inspiring connection and<br />
+                  lasting impressions.
+                </span>
+                <div class="about__arrows">
+                  <button class="about__arrow-left">
+                    <img
+                      src="/assets/img/svg/arrow-left.svg"
+                      loading="lazy"
+                      alt="Стрелка"
+                    />
+                  </button>
+                  <button class="about__arrow-right">
+                    <img
+                      src="/assets/img/svg/arrow-right.svg"
+                      loading="lazy"
+                      alt="Стрелка"
+                    />
+                  </button>
+                </div>
+              </div>
+              <div class="about__second-image">
+                <img
+                  src="/assets/img/image2.png"
+                  loading="lazy"
+                  alt="Фото"
+                  class="about__second-img"
+                />
+                <button class="about__image-button2">
+                  <a href="#!" class="about__image-link2"> About Lensoria </a>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section__work work">
+        <div class="container work__container">
+          <div class="work__inner">
+            <button class="work__button-first">
+              <a href="#!" class="work__link-first"> Our work </a>
+            </button>
+            <div class="work__block-text">
+              <h3 class="work__text">
+                Where Every Frame<br />
+                Speaks, Every Detail Inspires
+              </h3>
+              <div class="work__buttons">
+                <button class="button work__button">
+                  <a href="#!" class="work__link"> Explore More </a>
+                </button>
+                <button class="work__button-arrow">
+                  <img
+                    src="assets/img/svg/arrow-side.svg"
+                    loading="lazy"
+                    alt="Стрелка"
+                  />
+                </button>
+              </div>
+            </div>
+            <div class="work__block-img">
+              <div class="work__image-first">
+                <img
+                  src="assets/img/japan2.png"
+                  loading="lazy"
+                  alt="Фотография"
+                  class="work__image-image"
+                />
+                <button class="button work__image-button">
+                  <span class="work__image-span"> Potrait Photography </span>
+                </button>
+                <div class="work__image-wrapper">
+                  <div class="work__image-block">
+                    <div class="work__image-text">
+                      <h3 class="work__image-title">Beautiful Japan Girl</h3>
+                      <span class="work__image-subtitle">
+                        her spirited energy during a festival, or her chic
+                        style.
+                      </span>
+                    </div>
+                    <a href="#!" class="work__image-link">
+                      <img
+                        src="assets/img/svg/arrow-side.svg"
+                        loading="lazy"
+                        alt="Стрелка"
+                        class="work__image-arrow"
+                      />
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="work__image-second">
+                <img
+                  src="assets/img/image5.jpg"
+                  loading="lazy"
+                  alt="Фотография"
+                  class="work__image-image"
+                />
+                <button class="button work__image-button">
+                  <span class="work__image-span"> Potrait Photography </span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section__service service">
+        <div class="container service__container">
+          <div class="service__inner">
+            <button class="service__button-title">
+              <a href="#!" class="service__title-link"> Our Service </a>
+            </button>
+            <div class="service__block-text">
+              <h3 class="service__text">
+                Bringing Your Vision<br />
+                to Life, One Shot at a Time
+              </h3>
+              <div class="service__buttons">
+                <input
+                  placeholder="Search Service..."
+                  type="text"
+                  class="service__input"
+                />
+                <div class="service__buttons-wrapper">
+                  <button class="button service__button">
+                    <a href="#!" class="service__link"> View All </a>
+                  </button>
+                  <button class="service__button-arrow">
+                    <img
+                      src="assets/img/svg/arrow-side.svg"
+                      loading="lazy"
+                      alt="Стрелка"
+                    />
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="service__event">
+              <span class="service__event-title"> (1) Event Photography </span>
+              <div class="service__event-block">
+                <p class="service__event-paragraph">
+                  Capture the essence of your special events with stunning
+                  photographs<br />
+                  that tell a story.Whether it's a wedding, birthday, or
+                  corporate event, we<br />
+                  make sure every important moment is preserved beautifully.
+                </p>
+                <div class="service__event-buttons">
+                  <button class="button service__button-tag">
+                    <a href="#!" class="service__link-tag"> Portraiture </a>
+                  </button>
+                  <button class="button service__button-tag">
+                    <a href="#!" class="service__link-tag"> PortraitArt </a>
+                  </button>
+                  <button class="button service__button-tag">
+                    <a href="#!" class="service__link-tag"> SoulfulShots </a>
+                  </button>
+                </div>
+              </div>
+              <div class="service__button-wrapper">
+                <button class="button service__button-more">
+                  <a href="#!" class="service__link-more"> View More </a>
+                </button>
+              </div>
+            </div>
+            <div class="service__images">
+              <img
+                class="service__img"
+                src="/assets/img/image2.png"
+                loading="lazy"
+                alt="Изображение"
+              />
+              <img
+                class="service__img"
+                src="/assets/img/image1.png"
+                loading="lazy"
+                alt="Изображение"
+              />
+            </div>
+            <div class="service__event-white">
+              <span class="service__event-title">
+                (2) Portrait Photography
+              </span>
+              <div class="event-secondary service__event-block">
+                <p class="service__event-paragraph">
+                  Professional portraits that showcase your personality,<br />
+                  style, and essence. Perfect for individuals, families, or<br />
+                  business professionals.
+                </p>
+                <div class="service__event-buttons">
+                  <button class="button service__button-tag">
+                    <a href="#!" class="service__link-tag"> Portraiture </a>
+                  </button>
+                  <button class="button service__button-tag">
+                    <a href="#!" class="service__link-tag"> PortraitArt </a>
+                  </button>
+                  <button class="button service__button-tag">
+                    <a href="#!" class="service__link-tag">
+                      PortraitPerfection
+                    </a>
+                  </button>
+                  <button class="button service__button-tag">
+                    <a href="#!" class="service__link-tag"> SoulfulShots </a>
+                  </button>
+                </div>
+              </div>
+              <div class="service__button-wrapper">
+                <button class="button service__button-more">
+                  <a href="#!" class="service__link-more"> View More </a>
+                </button>
+              </div>
+            </div>
+            <div class="white-secondary service__event-white">
+              <span class="service__event-title">
+                (3) Project Photography
+              </span>
+              <div class="service__event-block">
+                <p class="service__event-paragraph">
+                  Capture the essence of your special events with stunning
+                  photographs<br />
+                  that tell a story.Whether it's a wedding, birthday, or
+                  corporate event, we<br />
+                  make sure every important moment is preserved beautifully.
+                </p>
+                <div class="service__event-buttons">
+                  <button class="button service__button-tag">
+                    <a href="#!" class="service__link-tag"> Portraiture </a>
+                  </button>
+                  <button class="button service__button-tag">
+                    <a href="#!" class="service__link-tag"> PortraitArt </a>
+                  </button>
+                  <button class="button service__button-tag">
+                    <a href="#!" class="service__link-tag"> SoulfulShots </a>
+                  </button>
+                </div>
+              </div>
+              <div class="service__button-wrapper">
+                <button class="button service__button-more">
+                  <a href="#!" class="service__link-more"> View More </a>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section__testimonials testimonials">
+        <div class="container testimonials__container">
+          <div class="testimonials__inner">
+            <div class="testimonials__header">
+              <button class="button testimonials__button">
+                <a href="#!" class="testimonials__button-link">
+                  Testimonials
+                </a>
+              </button>
+              <span class="testimonials__text">
+                See How We<br />
+                Make a Difference
+              </span>
+            </div>
+            <div class="swiper testimonials__slider">
+              <ul class="swiper-wrapper">
+                <li class="testimonials__card">
+                  <!-- swiper-slide -->
+                  <div class="testimonials__text-block">
+                    <div class="testimonials__title-wrapper">
+                      <h3 class="testimonials__title">
+                        "collection of stunning<br />
+                        images that truly told our story"
+                      </h3>
+                    </div>
+                    <div class="testimonials__text-wrapper">
+                      <p class="testimonials__paragraph">
+                        The creativity and quality exceeded our expectations,
+                        and we couldn't be happier<br />
+                        with how our project turned out. Highly recommend
+                        Lensoria to anyone looking for<br />
+                        exceptional photography!
+                      </p>
+                      <span class="testimonials__creator"
+                        >— Sarah & John, Wedding Clients</span
+                      >
+                    </div>
+                  </div>
+                  <div class="testimonials__img">
+                    <img
+                      class="testimonials__image"
+                      src="/assets/img/image3.jpg"
+                      loading="lazy"
+                      alt="Фотография"
+                    />
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section__insight insight">
+        <div class="container insight__container">
+          <div class="insight__inner">
+            <button class="insight__button-title">
+              <a href="#!" class="insight__button-link"> Lensoria Insight </a>
+            </button>
+            <div class="insight__block-text">
+              <h3 class="insight__text">
+                See Beyond the Lens<br />
+                Discover the Story Within
+              </h3>
+              <div class="insight__buttons">
+                <button class="button insight__button">
+                  <a href="#!" class="insight__link"> Explore More </a>
+                </button>
+                <button class="insight__button-arrow">
+                  <img
+                    src="assets/img/svg/arrow-side.svg"
+                    loading="lazy"
+                    alt="Стрелка"
+                  />
+                </button>
+              </div>
+            </div>
+            <ul class="insight__cards">
+              <li class="insight__item">
+                <img
+                  src="/assets/img/image5.jpg"
+                  alt="Изображение"
+                  loading="lazy"
+                  class="insight__image"
+                />
+                <div class="insight__text">
+                  <h3 class="insight__card-title">
+                    The Power of Storytelling<br />
+                    Through the Lens
+                  </h3>
+                  <p class="insght__card-paragraph">
+                    We believe that every photograph tells a story, and the true
+                    art of<br />
+                    photography lies in capturing the essence of that story
+                  </p>
+                </div>
+              </li>
+              <li class="insight__item">
+                <img
+                  src="/assets/img/image3.jpg"
+                  alt="Изображение"
+                  loading="lazy"
+                  class="insight__image"
+                />
+                <div class="insight__text">
+                  <h3 class="insight__card-title">
+                    The Rise of Minimalist Photography:<br />
+                    A Timeless Trend
+                  </h3>
+                  <p class="insght__card-paragraph">
+                    Minimalism in photography is gaining traction, becoming a
+                    staple<br />
+                    in both personal and commercial projects.
+                  </p>
+                </div>
+              </li>
+              <li class="insight__item">
+                <img
+                  src="/assets/img/image1.png"
+                  alt="Изображение"
+                  loading="lazy"
+                  class="insight__image"
+                />
+                <div class="insight__text">
+                  <h3 class="insight__card-title">
+                    The Importance of Storytelling in Portrait<br />
+                    Photography
+                  </h3>
+                  <p class="insght__card-paragraph">
+                    Portrait photography is no longer just about capturing
+                    faces—it’s about<br />
+                    telling stories.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="section__price price">
+        <div class="container price__contaier">
+          <div class="price__inner">
+            <div class="price__text-block">
+              <button class="button price__button-main">
+                <a href="#!" class="price__button-title">
+                    Pricing Plans
+                </a>
+              </button>
+              <h3 class="price__title">
+                Affordable Plans for<br>
+                Priceless Memories
+              </h3>
+            </div>
+            <ul class="price__cards">
+                <li class="price__item">
+                    <div class="price__plan">
+                        <h3 class="price__price">
+                            $200.00
+                            <span class="price__hour">
+                                /Hour
                             </span>
-                        </div>
-                        <div class="welcome__buttons">
-                            <button class="button welcome__button">
-                                <a href="#!" class="welcome__link">Book A Call</a>
-                            </button>
-                            <button class="button welcome__button-secondary">
-                                <a href="#!" class="welcome__link">
-                                    <img src="assets/img/svg/Arrow2.svg" loading="lazy" alt="Стрелка">
-                                </a>
-                            </button>
-                        </div>
-                        <div id="image-slider" class="splide">
-                            <div class="splide__track">
-                                <div class="splide__list">
-                                    <img src="assets/img/image1.png" loading="lazy" alt="Фотография" class="splide__slide">
-                                    <img src="assets/img/image2.png" loading="lazy" alt="Фотография" class="splide__slide">
-                                    <img src="assets/img/image3.jpg" loading="lazy" alt="Фотография" class="splide__slide">
-                                </div> 
-                            </div>
-                        </div>
-                    </div>
-                    <div class="welcome__block-image">
-                        <img src="assets/img/image.jpg" loading="lazy" alt="Фотография" class="welcome__main-image">
-                    </div>
-                </div>
-            </div>
-            <div class="welcome__block-service">
-                <div class="container welcome__block-container">
-                <div class="welcome__service-left">
-                    <img src="assets/img/faces.png" loading="lazy" alt="Фотографии">
-                    <span class="welcome__service-span">
-                        32k people happy with<br> our service
-                    </span>
-                </div>
-                <div class="welcome__service-buttons">
-                    <button class="welcome__service-button">
-                        <a href="#!" class="welcome__service-link">
-                            Landscape
-                        </a>
-                    </button>
-                    <button class="welcome__service-button">
-                        <a href="#!" class="welcome__service-link">
-                            Portrait
-                        </a>
-                    </button>
-                    <button class="welcome__service-button">
-                        <a href="#!" class="welcome__service-link">
-                            Project
-                        </a>
-                    </button>
-                    <button class="welcome__service-button">
-                        <a href="#!" class="welcome__service-link">
-                            Event
-                        </a>
-                    </button>
-                </div>
-                </div>
-            </div>
-        </section>
-        <section class="section__about about">
-            <div class="container about__container">
-                <div class="about__inner">
-                    <div class="about__block-text">
-                        <button class="about__button">
-                            <a href="#!" class="about__link">
-                                About Lensoria
-                            </a>
-                        </button> 
-                        <h2 class="about__text">
-                            From heartfelt celebrations to professional branding, we blend<br>
-                             creativity, precision, and artistry to deliver stunning photographs<br>
-                             that resonate deeply.
-                        </h2>
-                    </div>
-                    <div class="about__block-img">
-                        <div class="about__first-image">
-                            <img src="/assets/img/image4.jpg" loading="lazy" alt="Фото" class="about__first-img">
-                            <button class="about__image-button">
-                                <a href="#!" class="about__image-link">
-                                    About Lensoria
-                                </a>
-                            </button>
-                        </div>
-                        <div class="about__block-span">
-                            <span class="about__span"> 
-                                Guided by creativity, precision, and<br>
-                                 passion, we strive to create art that<br>
-                                  transcends time, inspiring connection and<br>
-                                   lasting impressions.
-                            </span>
-                            <div class="about__arrows">
-                                <button class="about__arrow-left">
-                                    <img src="/assets/img/svg/arrow-left.svg" loading="lazy" alt="Стрелка">
-                                </button>
-                                <button class="about__arrow-right">
-                                    <img src="/assets/img/svg/arrow-right.svg" loading="lazy" alt="Стрелка">
-                                </button>
-                            </div>
-                        </div>
-                        <div class="about__second-image">
-                            <img src="/assets/img/image2.png" loading="lazy" alt="Фото" class="about__second-img">
-                            <button class="about__image-button2">
-                                <a href="#!" class="about__image-link2">
-                                    About Lensoria
-                                </a>
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="section__work work">
-            <div class="container work__container">
-                <div class="work__inner">
-                    <button class="work__button-first">
-                        <a href="#!" class="work__link-first">
-                            Our work
-                        </a>
-                    </button> 
-                    <div class="work__block-text">
-                        <h3 class="work__text">
-                            Where Every Frame<br> Speaks, Every Detail Inspires
                         </h3>
-                        <div class="work__buttons">
-                            <button class="button work__button">
-                                <a href="#!" class="work__link">
-                                    Explore More
-                                </a>
-                            </button>
-                            <button class="work__button-arrow">
-                                <img src="assets/img/svg/arrow-side.svg" loading="lazy" alt="Стрелка">
-                            </button>
+                        <button class="button price__button-plan">
+                            <span class="price__button-span">
+                                Basic Plan
+                            </span>
+                        </button>
+                    </div>
+                    <div class="price__paragraph-block">
+                        <p class="price__paragraph">
+                            The Business Plan on Lensoria is designed for growing businesses that require comprehensive<br>
+                             financial management tools and premium support.
+                        </p>
+                    </div>
+                    <div class="price__buttons-block">
+                        <button class="button price__button">
+                            <a href="#!" class="price__button-link">
+                                Get Started
+                            </a>
+                        </button>
+                        <button class="button price__white-button">
+                            <a href="#!" class="price__black-link price__button-link">
+                                Try Demo
+                            </a>
+                        </button>
+                    </div>
+                    <div class="price__features-block">
+                        <div class="price__feature-item">
+                            <img class="price__feature-icon" src="assets/img/svg/check-black.svg" loading="lazy" alt="Галочка">
+                            <p class="price__feature-description">
+                                1 location
+                            </p>
+                        </div>
+                        <div class="price__feature-item">
+                            <img class="price__feature-icon" src="assets/img/svg/check-black.svg" loading="lazy" alt="Галочка">
+                            <p class="price__feature-description">
+                                10 high-quality edited images
+                            </p>
+                        </div>
+                        <div class="price__feature-item">
+                            <img class="price__feature-icon" src="assets/img/svg/check-black.svg" loading="lazy" alt="Галочка">
+                            <p class="price__feature-description">
+                                Online gallery for viewing and downloading
+                            </p>
+                        </div>
+                        <div class="price__feature-item">
+                            <img class="price__feature-icon" src="assets/img/svg/check-black.svg" loading="lazy" alt="Галочка">
+                            <p class="price__feature-description">
+                                Digital delivery within 7 days
+                            </p>
+                        </div>
+                        <div class="price__feature-item">
+                            <img class="price__feature-icon" src="assets/img/svg/check-black.svg" loading="lazy" alt="Галочка">
+                            <p class="price__feature-description">
+                                Comprehensive Financial Reporting
+                            </p>
+                        </div>
+                        <div class="price__feature-item">
+                            <img class="price__feature-icon" src="assets/img/svg/check-black.svg" loading="lazy" alt="Галочка">
+                            <p class="price__feature-description">
+                                Comprehensive Financial Reporting
+                            </p>
                         </div>
                     </div>
-                    <div class="work__block-img">
-                        <div class="work__image-first">
-                                <img src="assets/img/japan2.png" loading="lazy" alt="Фотография" class="work__image-image">
-                                <button class="button work__image-button">
-                                    <span class="work__image-span">
-                                        Potrait Photography
-                                    </span>
-                                </button>
-                                <div class="work__image-wrapper">
-                                    <div class="work__image-block">
-                                        <div class="work__image-text">
-                                            <h3 class="work__image-title">
-                                                Beautiful Japan Girl
-                                            </h3>
-                                            <span class="work__image-subtitle">
-                                                her spirited energy during a festival, or her chic style.
-                                            </span>
-                                        </div>
-                                        <a href="#!" class="work__image-link">
-                                            <img src="assets/img/svg/arrow-side.svg" loading="lazy" alt="Стрелка" class="work__image-arrow">
-                                        </a>
-                                    </div>
-                                </div>
+                </li>
+                <li class="price__item">
+                    <div class="price__plan">
+                        <h3 class="price__price">
+                            $500.00
+                            <span class="price__hour">
+                                /Hour
+                            </span>
+                        </h3>
+                        <button class="button price__button-plan">
+                            <span class="price__button-span">
+                                Premium Plan
+                            </span>
+                        </button>
+                    </div>
+                    <div class="price__paragraph-block">
+                        <p class="price__paragraph">
+                            The Business Plan on Lensoria is designed for growing businesses that require comprehensive<br>
+                             financial management tools and premium support.
+                        </p>
+                    </div>
+                    <div class="price__buttons-block">
+                        <button class="button price__button">
+                            <a href="#!" class="price__button-link">
+                                Get Started
+                            </a>
+                        </button>
+                        <button class="button price__white-button">
+                            <a href="#!" class="price__black-link price__button-link">
+                                Try Demo
+                            </a>
+                        </button>
+                    </div>
+                    <div class="price__features-block">
+                        <div class="price__feature-item">
+                            <img class="price__feature-icon" src="assets/img/svg/check-black.svg" loading="lazy" alt="Галочка">
+                            <p class="price__feature-description">
+                                1 location
+                            </p>
                         </div>
-                        <div class="work__image-second">
-                            <img src="assets/img/image5.jpg" loading="lazy" alt="Фотография" class="work__image-image">
-                            <button class="button work__image-button">
-                                <span class="work__image-span">
-                                    Potrait Photography
+                        <div class="price__feature-item">
+                            <img class="price__feature-icon" src="assets/img/svg/check-black.svg" loading="lazy" alt="Галочка">
+                            <p class="price__feature-description">
+                                10 high-quality edited images
+                            </p>
+                        </div>
+                        <div class="price__feature-item">
+                            <img class="price__feature-icon" src="assets/img/svg/check-black.svg" loading="lazy" alt="Галочка">
+                            <p class="price__feature-description">
+                                Online gallery for viewing and downloading
+                            </p>
+                        </div>
+                        <div class="price__feature-item">
+                            <img class="price__feature-icon" src="assets/img/svg/check-black.svg" loading="lazy" alt="Галочка">
+                            <p class="price__feature-description">
+                                Digital delivery within 7 days
+                            </p>
+                        </div>
+                        <div class="price__feature-item">
+                            <img class="price__feature-icon" src="assets/img/svg/check-black.svg" loading="lazy" alt="Галочка">
+                            <p class="price__feature-description">
+                                Comprehensive Financial Reporting
+                            </p>
+                        </div>
+                        <div class="price__feature-item">
+                            <img class="price__feature-icon" src="assets/img/svg/check-black.svg" loading="lazy" alt="Галочка">
+                            <p class="price__feature-description">
+                                Comprehensive Financial Reporting
+                            </p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <div class="price__card-exclusive">
+                <div class="price__plan-wrapper">
+                    <div class="price__left-wrapper">
+                        <div class="price__plan">
+                            <h3 class="price__price">
+                                $1.500
+                                <span class="price__hour">
+                                    /Day
+                                </span>
+                            </h3>
+                            <button class="button price__button-exclusive">
+                                <span class="price__button-span">
+                                    Exclusive Plan
                                 </span>
                             </button>
                         </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="section__service service">
-            <div class="container service__container">
-                <div class="service__inner">
-                    <button class="service__button-title">
-                        <a href="#!" class="service__title-link">
-                            Our Service
-                        </a>
-                    </button> 
-                    <div class="service__block-text">
-                        <h3 class="service__text">
-                            Bringing Your Vision<br>
-                             to Life, One Shot at a Time
-                        </h3>
-                        <div class="service__buttons">
-                            <input placeholder="Search Service..." type="text" class="service__input">
-                            <div class="service__buttons-wrapper">
-                                <button class="button service__button">
-                                    <a href="#!" class="service__link">
-                                        View All
-                                    </a>
-                                </button>
-                                <button class="service__button-arrow">
-                                    <img src="assets/img/svg/arrow-side.svg" loading="lazy" alt="Стрелка">
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="service__event">
-                        <span class="service__event-title">
-                            (1) Event Photography
-                        </span>
-                        <div class="service__event-block">
-                            <p class="service__event-paragraph">
-                                Capture the essence of your special events with stunning photographs<br>
-                                 that tell a story.Whether it's a wedding, birthday, or corporate event, we<br>
-                                  make sure every important moment is preserved beautifully.
+                        <div class="price__paragraph-block">
+                            <p class="price__paragraph">
+                                The Business Plan on Lensoria is designed for growing businesses that require comprehensive<br>
+                                 financial management tools and premium support.
                             </p>
-                            <div class="service__event-buttons">
-                                <button class="button service__button-tag">
-                                    <a href="#!" class="service__link-tag">
-                                        Portraiture
-                                    </a>
-                                </button>
-                                <button class="button service__button-tag">
-                                    <a href="#!" class="service__link-tag">
-                                        PortraitArt
-                                    </a>
-                                </button>
-                                <button class="button service__button-tag">
-                                    <a href="#!" class="service__link-tag">
-                                        SoulfulShots
-                                    </a>
-                                </button>
-                            </div>
-                        </div>
-                        <div class="service__button-wrapper">
-                            <button class="button service__button-more">
-                                <a href="#!" class="service__link-more">
-                                    View More
-                                </a>
-                            </button>
                         </div>
                     </div>
-                    <div class="service__images">
-                        <img class="service__img" src="/assets/img/image2.png" loading="lazy" alt="Изображение">
-                        <img class="service__img" src="/assets/img/image1.png" loading="lazy" alt="Изображение">
-                    </div>
-                    <div class="service__event-white">
-                        <span class="service__event-title">
-                            (2) Portrait Photography
-                        </span>
-                        <div class="event-secondary service__event-block">
-                            <p class="service__event-paragraph">
-                                Professional portraits that showcase your personality,<br>
-                                 style, and essence. Perfect for individuals, families, or<br>
-                                  business professionals.
-                            </p>
-                            <div class="service__event-buttons">
-                                <button class="button service__button-tag">
-                                    <a href="#!" class="service__link-tag">
-                                        Portraiture
-                                    </a>
-                                </button>
-                                <button class="button service__button-tag">
-                                    <a href="#!" class="service__link-tag">
-                                        PortraitArt
-                                    </a>
-                                </button>
-                                <button class="button service__button-tag">
-                                    <a href="#!" class="service__link-tag">
-                                        PortraitPerfection
-                                    </a>
-                                </button>
-                                <button class="button service__button-tag">
-                                    <a href="#!" class="service__link-tag">
-                                        SoulfulShots
-                                    </a>
-                                </button>
-                            </div>
-                        </div>
-                        <div class="service__button-wrapper">
-                            <button class="button service__button-more">
-                                <a href="#!" class="service__link-more">
-                                    View More
-                                </a>
-                            </button>
-                        </div>
-                    </div>
-                    <div class="white-secondary service__event-white">
-                        <span class="service__event-title">
-                            (3) Project Photography
-                        </span>
-                        <div class="service__event-block">
-                            <p class="service__event-paragraph">
-                                Capture the essence of your special events with stunning photographs<br>
-                                 that tell a story.Whether it's a wedding, birthday, or corporate event, we<br>
-                                  make sure every important moment is preserved beautifully.
-                            </p>
-                            <div class="service__event-buttons">
-                                <button class="button service__button-tag">
-                                    <a href="#!" class="service__link-tag">
-                                        Portraiture
-                                    </a>
-                                </button>
-                                <button class="button service__button-tag">
-                                    <a href="#!" class="service__link-tag">
-                                        PortraitArt
-                                    </a>
-                                </button>
-                                <button class="button service__button-tag">
-                                    <a href="#!" class="service__link-tag">
-                                        SoulfulShots
-                                    </a>
-                                </button>
-                            </div>
-                        </div>
-                        <div class="service__button-wrapper">
-                            <button class="button service__button-more">
-                                <a href="#!" class="service__link-more">
-                                    View More
-                                </a>
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="section__testimonials testimonials">
-            <div class="container testimonials__container">
-                <div class="testimonials__inner">
-                    <div class="testimonials__header">
-                        <button class="button testimonials__button">
-                            <a href="#!" class="testimonials__button-link">
-                                Testimonials
+                    <div class="price__buttons-accent price__buttons-block">
+                        <button class="button price__button">
+                            <a href="#!" class="price__button-link">
+                                Get Started
                             </a>
                         </button>
-                        <span class="testimonials__text">
-                            See How We<br>
-                            Make a Difference
-                        </span>
+                        <button class="button price__accent-button">
+                            <a href="#!" class="price__black-link price__button-link">
+                                Try Demo
+                            </a>
+                        </button>
                     </div>
-                    <div class="swiper testimonials__slider">
-                        <ul class="swiper-wrapper">
-                            <li class="testimonials__card"> <!-- swiper-slide -->
-                              <div class="testimonials__text-block">
-                                <div class="testimonials__title-wrapper">
-                                    <h3 class="testimonials__title">"collection of stunning<br>
-                                        images that truly told our story"
-                                    </h3>
-                                </div>
-                                <div class="testimonials__text-wrapper">
-                                    <p class="testimonials__paragraph">The creativity and quality exceeded our expectations, and we couldn't be happier<br>
-                                         with how our project turned out. Highly recommend Lensoria to anyone looking for<br>
-                                          exceptional photography!</p>
-                                    <span class="testimonials__creator">— Sarah & John, Wedding Clients</span>
-                                </div>
-                               </div>
-                              <div class="testimonials__img">
-                                <img class="testimonials__image" src="/assets/img/image3.jpg" loading="lazy" alt="Фотография">
-                              </div>
-                            </li>
-                        </ul>
+                </div>
+                <div class="price__features-accent price__features-block">
+                    <div class="price__feature-item">
+                        <img class="price__feature-icon" src="assets/img/svg/check-white.svg" loading="lazy" alt="Галочка">
+                        <p class="price__description-accent price__feature-description">
+                            1 location
+                        </p>
+                    </div>
+                    <div class="price__feature-item">
+                        <img class="price__feature-icon" src="assets/img/svg/check-white.svg" loading="lazy" alt="Галочка">
+                        <p class="price__description-accent price__feature-description">
+                            10 high-quality edited images
+                        </p>
+                    </div>
+                    <div class="price__feature-item">
+                        <img class="price__feature-icon" src="assets/img/svg/check-white.svg" loading="lazy" alt="Галочка">
+                        <p class="price__description-accent price__feature-description">
+                            Online gallery for viewing and downloading
+                        </p>
+                    </div>
+                    <div class="price__feature-item">
+                        <img class="price__feature-icon" src="assets/img/svg/check-white.svg" loading="lazy" alt="Галочка">
+                        <p class="price__description-accent price__feature-description">
+                            Digital delivery within 7 days
+                        </p>
+                    </div>
+                    <div class="price__feature-item">
+                        <img class="price__feature-icon" src="assets/img/svg/check-white.svg" loading="lazy" alt="Галочка">
+                        <p class="price__description-accent price__feature-description">
+                            Comprehensive Financial Reporting
+                        </p>
+                    </div>
+                    <div class="price__feature-item">
+                        <img class="price__feature-icon" src="assets/img/svg/check-white.svg" loading="lazy" alt="Галочка">
+                        <p class="price__description-accent price__feature-description">
+                            Comprehensive Financial Reporting
+                        </p>
                     </div>
                 </div>
             </div>
-        </section>
-        <section class="section__insight insight">
-            <div class="container insight__container">
-                <div class="insight__inner">
-                    <button class="insight__button-title">
-                        <a href="#!" class="insight__button-link">
-                            Lensoria Insight
-                        </a>
-                    </button> 
-                    <div class="insight__block-text">
-                        <h3 class="insight__text">
-                            See Beyond the Lens<br>
-                            Discover the Story Within
-                        </h3>
-                        <div class="insight__buttons">
-                            <button class="button insight__button">
-                                <a href="#!" class="insight__link">
-                                    Explore More
-                                </a>
-                            </button>
-                            <button class="insight__button-arrow">
-                                <img src="assets/img/svg/arrow-side.svg" loading="lazy" alt="Стрелка">
-                            </button>
-                        </div>
-                    </div>
-                    <ul class="insight__cards">
-                        <li class="insight__item">
-                            <img src="/assets/img/image5.jpg" alt="Изображение" loading="lazy" class="insight__image">
-                            <div class="insight__text">
-                                <h3 class="insight__card-title">
-                                    The Power of Storytelling<br>
-                                     Through the Lens
-                                </h3>
-                                <p class="insght__card-paragraph">
-                                    We believe that every photograph tells a story, and the true art of<br>
-                                     photography lies in capturing the essence of that story
-                                </p>
-                            </div>
-                        </li>
-                        <li class="insight__item">
-                            <img src="/assets/img/image3.jpg" alt="Изображение" loading="lazy" class="insight__image">
-                            <div class="insight__text">
-                                <h3 class="insight__card-title">
-                                    The Rise of Minimalist Photography:<br>
-                                     A Timeless Trend
-                                </h3>
-                                <p class="insght__card-paragraph">
-                                    Minimalism in photography is gaining traction, becoming a staple<br>
-                                    in both personal and commercial projects.
-                                </p>
-                            </div>
-                        </li>
-                        <li class="insight__item">
-                            <img src="/assets/img/image1.png" alt="Изображение" loading="lazy" class="insight__image">
-                            <div class="insight__text">
-                                <h3 class="insight__card-title">
-                                    The Importance of Storytelling in Portrait<br>
-                                     Photography
-                                </h3>
-                                <p class="insght__card-paragraph">
-                                    Portrait photography is no longer just about capturing faces—it’s about<br>
-                                    telling stories.
-                                </p>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </section>
+          </div>
+        </div>
+      </section>
     </main>
     <footer class="footer">
-        <div class="footer__inner">
-
-        </div>
+      <div class="footer__inner"></div>
     </footer>
     <!-- <script>
         document.addEventListener('DOMContentLoaded', function () {
@@ -502,5 +819,5 @@
           });
         });
       </script> -->
-</body>
+  </body>
 </html>
