@@ -23,12 +23,12 @@ document.addEventListener('DOMContentLoaded', function () {
          }
      });
 
-     $( ".faq__item" ).click(function() {
-      if (  $( this ).css( "faq__icon-more" ) == 'none' ){
-          $(this).css("transform","rotate(180deg)");
-      } else {
-          $(this).css("transform","" );
-      }
-  });
+  //    $( ".faq__item" ).click(function() {
+  //     if (  $( this ).css( "faq__icon-more" ) == 'none' ){
+  //         $(this).css("transform","rotate(180deg)");
+  //     } else {
+  //         $(this).css("transform","" );
+  //     }
+  // });
   
 });
