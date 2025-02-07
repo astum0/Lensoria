@@ -187,3 +187,51 @@
 .profile__card-paragraph{
     font-size: 18px;
 }
+
+.philosophy{
+    padding: 95px 0px;
+}
+
+.philosophy__text-block{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.philosophy__button-main{
+    margin-bottom: 24px;
+    border-radius: 28px;
+    padding: 8px 12px;
+}
+
+.philosophy__button-title{
+    font-size: 14px;
+}
+
+.philosophy__title{
+    font-size: 48px;
+}
+
+.philosophy__wrapper-title{
+    font-size: 48px;
+}
+
+.philosophy__text-wrapper{
+    gap: 24px;
+}
+
+.philosophy__block{
+    padding: 32px;
+}
+
+.philosophy__image{
+    height: 622px;
+    width: 657px;
+    object-fit: cover
+}
+
+.philosophy__swiper{
+    height: 622px;
+}
+
+.philosophy__card{
+    height: 622px;
+}
