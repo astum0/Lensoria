@@ -10,7 +10,7 @@
 }
 .envelope{
     width: 100%;
-    font-family: sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: 400;
     color:var(--color-black);
     font-size: 16px;
@@ -34,10 +34,11 @@ a{
     padding: 12px 32px;
 }
 
+/* End of settings */
 
 
 .header{
-    margin-top:54px;
+    margin-top:38px;
 }
 
 .header__inner{
