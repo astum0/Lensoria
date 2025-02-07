@@ -302,11 +302,14 @@
                 to Life, One Shot at a Time
               </h3>
               <div class="service__buttons">
-                <input
-                  placeholder="Search Service..."
-                  type="text"
-                  class="service__input"
-                />
+                <div class="service__input-wrapper">
+                  <img class="service__input-icon" src="assets/img/svg/loop-icon.svg" loading="lazy" alt="Поиск">
+                  <input
+                    placeholder="Search Service..."
+                    type="text"
+                    class="service__input"
+                  />
+                </div>
                 <div class="service__buttons-wrapper">
                   <button class="button service__button">
                     <a href="#!" class="service__link"> View All </a>
@@ -954,6 +957,9 @@
                 Join the Lensoria community and let us bring your vision to life, one frame at a time!
               </h3>
               <div class="footer__input-wrapper">
+                <button class="footer__input-button">
+                  <img src="/assets/img/svg/send-icon.svg" loading="lazy" alt="Отправить" class="footer__send-icon">
+                </button>
                 <input placeholder="Enter Your Email Address...." type="email" class="footer__input">
               </div>
             </div>
@@ -1041,14 +1047,9 @@
     <script>
       document.querySelectorAll('.faq__item').forEach(item => {
           item.addEventListener('click', function(e) {
-              // Если клик был именно по кнопке, а не по всему элементу
               if (e.target.closest('.faq__button-more')) return;
-              
-              // Переключаем класс active
               this.classList.toggle('active');
           });
-      
-          // Обработка клика по кнопке
           item.querySelector('.faq__button-more').addEventListener('click', function(e) {
               e.stopPropagation();
               item.classList.toggle('active');

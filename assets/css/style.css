@@ -524,6 +524,17 @@ a{
     display: flex;
 }
 
+.service__input-wrapper{
+    position: relative;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.service__input-icon{
+    position: absolute;
+    right: 5px;
+}
 
 .service__event{
     display: flex;
@@ -1220,4 +1231,20 @@ a{
 
 .footer__copyright-text{
     font-size: 16px;
+}
+
+.footer__input-wrapper{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.footer__input-button{
+    position: absolute;
+    right: 3px;
+    border: none;
+    background: none;
+    height: 36px;
+    width: 37px;
+    cursor: pointer;
 }
