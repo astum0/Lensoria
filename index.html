@@ -823,7 +823,7 @@
                       </button>
                       <button class="faq__button-arrow">
                         <img
-                          src="assets/img/svg/arrow-side.svg"
+                          src="/assets/img/svg/arrow-side.svg"
                           loading="lazy"
                           alt="Стрелка"
                         />
@@ -1044,18 +1044,6 @@
         </div>
       </div>
     </footer>
-    <script>
-      document.querySelectorAll('.faq__item').forEach(item => {
-          item.addEventListener('click', function(e) {
-              if (e.target.closest('.faq__button-more')) return;
-              this.classList.toggle('active');
-          });
-          item.querySelector('.faq__button-more').addEventListener('click', function(e) {
-              e.stopPropagation();
-              item.classList.toggle('active');
-          });
-      });
-      </script>
     <!-- <script>
         document.addEventListener('DOMContentLoaded', function () {
           new Swiper('.swiper', {

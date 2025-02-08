@@ -235,3 +235,60 @@
 .philosophy__card{
     height: 622px;
 }
+
+.team{
+    background-color: #F5F5F5;
+    padding: 66px;
+}
+
+.team__text-block{
+    text-align: center;
+}
+
+.team__button-main{
+    margin-bottom: 24px;
+    padding: 8px 12px;
+}
+
+.team__button-title{
+    font-size: 14px;
+}
+
+.team__item{
+    list-style: none;
+}
+
+.team__item-img{
+    width: 326px;
+    height: 334px;
+    border-radius: 24px;
+}
+
+.team__title{
+    font-size: 48px;
+    margin-bottom: 40px;
+}
+
+.team__block-text{
+
+}
+
+.team__text-title{
+    font-size: 24px;
+    margin-bottom: 12px;
+    margin-top: 12px;
+}
+
+.team__block-span{
+    font-size: 16px;
+}
+
+.team__cards{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 24px;
+}
+
+.team__display-none{
+    opacity: 0%;
+}
